@@ -46,4 +46,4 @@ The fastest way to deploy the application is to click the **Deploy to Koyeb** bu
 • /broadcast - to broadcast a message to all Eva Maria users
 • /batch - to create link for multiple posts
 • /link - to create link for one post
-``
+
