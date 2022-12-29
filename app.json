@@ -20,7 +20,7 @@
     "repository": "https://github.com/Enox5600/TnLink",
     "env": {
         "BOT_TOKEN": {
-            "description": "Your bot token.",
+            "description": "Your bot toen.",
             "required": true
         },
         "API_ID": {
