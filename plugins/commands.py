@@ -143,7 +143,7 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('⚡Main Group', url=f'https://t.me/+ZPpcbtCV204yYWU1'),
-                          InlineKeyboardButton('Main Channel⚡', url=f'https://t.me/RolexMoviesOX')
+                          InlineKeyboardButton('Main Channel⚡', url=f'https://t.me/RolexMoviesOXO')
                        ],[
                           InlineKeyboardButton('🔥 Join Updates Channel 🔥', url=CHNL_LNK)
                          ]
@@ -161,7 +161,7 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('⚡Main Group', url=f'https://t.me/+ZPpcbtCV204yYWU1'),
-                          InlineKeyboardButton('Main Channel⚡', url=f'https://t.me/RolexMoviesOX')
+                          InlineKeyboardButton('Main Channel⚡', url=f'https://t.me/RolexMoviesOXO')
                        ],[
                           InlineKeyboardButton('🔥 Join Updates Channel 🔥', url=CHNL_LNK)
                          ]
@@ -231,7 +231,7 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('⚡Main Group', url=f'https://t.me/+ZPpcbtCV204yYWU1'),
-                          InlineKeyboardButton('Main Channel⚡', url=f'https://t.me/RolexMoviesOX')
+                          InlineKeyboardButton('Main Channel⚡', url=f'https://t.me/RolexMoviesOXO')
                        ],[
                           InlineKeyboardButton('🔥 Join Updates Channel 🔥', url=CHNL_LNK)
                          ]
@@ -273,7 +273,7 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('⚡Main Group', url=f'https://t.me/+ZPpcbtCV204yYWU1'),
-                          InlineKeyboardButton('Main Channel⚡', url=f'https://t.me/RolexMoviesOX')
+                          InlineKeyboardButton('Main Channel⚡', url=f'https://t.me/RolexMoviesOXO')
                        ],[
                           InlineKeyboardButton('🔥 Join Updates Channel 🔥', url=CHNL_LNK)
                          ]
