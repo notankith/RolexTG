@@ -27,10 +27,10 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5296610774').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001660274107').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001660257089').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL', '-1001701130326')
+auth_channel = environ.get('AUTH_CHANNEL', '-1001660257089')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
@@ -46,12 +46,12 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'rxmov_files')
 # Others
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+ZPpcbtCV204yYWU1')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/RolexMoviesOX')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/RolexMoviesOXO')
 SHORTENER_WEBSITE = environ.get('SHORTENER_WEBSITE', 'droplink.co')
 API_TOKEN = environ.get('API_TOKEN', '7b8f6186f757ca317538f68e9ebaaf05780bc330')
-MSG_ALRT = environ.get('MSG_ALRT', '🚩 @RolexMoviesOX Best Channel In Telegram')
+MSG_ALRT = environ.get('MSG_ALRT', '🚩 @RolexMoviesOXO Best Channel In Telegram')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001660274107'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'RolexMoviesOX')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'RolexMoviesOXO')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', 'True')), False)
 IMDB = is_enabled((environ.get('IMDB', 'true')), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
@@ -86,7 +86,7 @@ SELF_DELETE = environ.get('SELF_DELETE', True)
 if SELF_DELETE == "True":
     SELF_DELETE = True
 DOWNLOAD_TEXT_NAME = "How to download "
-DOWNLOAD_TEXT_URL = "https://t.me/RolexMoviesOX/55"
+DOWNLOAD_TEXT_URL = "https://t.me/tnlinkdown/6"
 CAPTION_BUTTON = "Support"
-CAPTION_BUTTON_URL = "https://t.me/RolexMoviesOX"
+CAPTION_BUTTON_URL = "https://t.me/RolexMoviesOXO"
 
